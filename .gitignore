@@ -12,3 +12,10 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+Content/LyraStarterGame/Config/IOS/IOSScalability.ini
+Content/LyraStarterGame/Config/Linux/LinuxEngine.ini
+*.ini
+Content/LyraStarterGame/Build/Android/res/drawable-ldpi/icon.png
+Content/LyraStarterGame/Build/Android/res/drawable-hdpi/icon.png
+*.uasset
+*.uasset
