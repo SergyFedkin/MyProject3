@@ -1,0 +1,94 @@
+Begin Map Name=/Game/GBFS/LEVEL/Level_2
+   Begin Level NAME=PersistentLevel
+      Begin Actor Class=/Script/Engine.WorldSettings Name=WorldSettings Archetype=/Script/Engine.WorldSettings'/Script/Engine.Default__WorldSettings' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.WorldPartition Name="WorldPartition_0"
+            Begin Object Class=/Script/Engine.WorldPartitionRuntimeSpatialHash Name="WorldPartitionRuntimeSpatialHash_0"
+            End Object
+            Begin Object Class=/Script/Engine.WorldPartitionEditorSpatialHash Name="WorldPartitionEditorSpatialHash_0"
+               Begin Object Class=/Script/Engine.WorldPartitionEditorCell Name="AlwaysLoadedCell"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/NavigationSystem.NavigationSystemModuleConfig Name="NavigationSystemModuleConfig_0"
+         End Object
+         Begin Object Name="WorldPartition_0"
+            Begin Object Name="WorldPartitionRuntimeSpatialHash_0"
+               Grids(0)=(GridName="MainGrid",CellSize=12800,LoadingRange=25600.000000,DebugColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+            End Object
+            Begin Object Name="WorldPartitionEditorSpatialHash_0"
+               Begin Object Name="AlwaysLoadedCell"
+               End Object
+            End Object
+            EditorHash=WorldPartitionEditorSpatialHash'"WorldPartitionEditorSpatialHash_0"'
+            RuntimeHash=WorldPartitionRuntimeSpatialHash'"WorldPartitionRuntimeSpatialHash_0"'
+            DefaultHLODLayer=HLODLayer'"/Game/GBFS/LEVEL/Level_2_HLODLayer_Instanced.Level_2_HLODLayer_Instanced"'
+         End Object
+         Begin Object Name="NavigationSystemModuleConfig_0"
+            bAutoSpawnMissingNavData=True
+            NavigationSystemClass="/Script/NavigationSystem.NavigationSystemV1"
+         End Object
+         bForceNoPrecomputedLighting=True
+         bIncludeGridSizeInNameForFoliageActors=True
+         bIncludeGridSizeInNameForPartitionedActors=True
+         NavigationSystemConfig=NavigationSystemModuleConfig'"NavigationSystemModuleConfig_0"'
+         WorldPartition=WorldPartition'"WorldPartition_0"'
+         BookmarkArray(0)=None
+         BookmarkArray(1)=None
+         BookmarkArray(2)=None
+         BookmarkArray(3)=None
+         BookmarkArray(4)=None
+         BookmarkArray(5)=None
+         BookmarkArray(6)=None
+         BookmarkArray(7)=None
+         BookmarkArray(8)=None
+         BookmarkArray(9)=None
+         ActorLabel="WorldSettings-1"
+      End Actor
+      Begin Actor Class=/Script/Engine.Brush Name=Brush_0 Archetype=/Script/Engine.Brush'/Script/Engine.Default__Brush' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype=BrushComponent'/Script/Engine.Default__Brush:BrushComponent0'
+         End Object
+         Begin Object Name="BrushComponent0"
+            Brush=Model'"Brush"'
+         End Object
+         bNotForClientOrServer=True
+         Brush=Model'"Brush"'
+         BrushComponent="BrushComponent0"
+         bHidden=False
+         SpawnCollisionHandlingMethod=AlwaysSpawn
+         RootComponent="BrushComponent0"
+         ActorLabel="Brush"
+      End Actor
+      Begin Actor Class=/Script/Engine.WorldPartitionMiniMap Name=WorldPartitionMiniMap_UAID_1C872C5E42A4CF2501_2116748663 Archetype=/Script/Engine.WorldPartitionMiniMap'/Script/Engine.Default__WorldPartitionMiniMap' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__WorldPartitionMiniMap:Sprite'
+         End Object
+         Begin Object Name="Sprite"
+         End Object
+         ActorLabel="WorldPartitionMiniMap"
+      End Actor
+      Begin Actor Class=/Script/GameplayDebugger.GameplayDebuggerPlayerManager Name=GameplayDebuggerPlayerManager_0 Archetype=/Script/GameplayDebugger.GameplayDebuggerPlayerManager'/Script/GameplayDebugger.Default__GameplayDebuggerPlayerManager' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.InputComponent Name="GameplayDebug_Input"
+         End Object
+         Begin Object Name="GameplayDebug_Input"
+         End Object
+         InputComponent=InputComponent'"GameplayDebug_Input"'
+         ActorLabel="GameplayDebuggerPlayerManager"
+      End Actor
+      Begin Actor Class=/Script/NavigationSystem.AbstractNavData Name=AbstractNavData-Default Archetype=/Script/NavigationSystem.AbstractNavData'/Script/NavigationSystem.Default__AbstractNavData' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SceneComponent Name="SceneComp" Archetype=SceneComponent'/Script/NavigationSystem.Default__AbstractNavData:SceneComp'
+         End Object
+         Begin Object Name="SceneComp"
+         End Object
+         NavDataConfig=(NavDataClass="/Script/NavigationSystem.AbstractNavData")
+         ActorLabel="AbstractNavData-Default"
+      End Actor
+      Begin Actor Class=/Script/Engine.WorldDataLayers Name=WorldDataLayers Archetype=/Script/Engine.WorldDataLayers'/Script/Engine.Default__WorldDataLayers' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.BillboardComponent Name="Sprite" Archetype=BillboardComponent'/Script/Engine.Default__WorldDataLayers:Sprite'
+         End Object
+         Begin Object Name="Sprite"
+         End Object
+         ActorLabel="WorldDataLayers-1"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
